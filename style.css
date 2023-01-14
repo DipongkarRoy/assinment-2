@@ -1,0 +1,74 @@
+/* ---------font style----------- */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Work+Sans:wght@500&display=swap');
+ *{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+ }
+/* -------font--------- */
+.header{
+  background-color:rgba(255, 144, 14, 0.1);;
+}
+.header-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-fast{
+  margin-top: 50px;
+  margin-left: 228px;
+  text-align: center;
+
+}
+.header-title{
+  font-size: 45px;
+  color: #131313;
+  font-weight: 700;
+}
+.header-secound{
+  margin-top: 63px;
+  margin-right: 240px;
+  text-align: center;
+}
+.header-secound a{
+  text-decoration: none;
+  margin: 10px;
+  font-size: 18px;
+  color: #424242;
+}
+/* ---------header part -2----------- */
+.header-info{
+  margin-top: 116px;
+  margin: 0px 280px;
+  width: 770px;
+  height: 185px;
+  text-align: center;
+  align-items: center;
+}
+.header-info-title{
+  font-size: 36px;
+  color: #131313;
+  font-weight: 700;
+}
+.header-discription{
+  font-size: 16px;
+  color: #727272;
+}
+.btn-primari{
+  color: 20px;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 9px 14px;
+  background-color: orange;
+}
+.background-images{
+  margin: 0px 150px;
+
+}
+.background-images img{
+  margin-top: 50px;
+  width: 1020px;
+  height: 500px;
+  margin-bottom: 30px;
+}
+/* -------------header-park warking Done.-------------------- */
