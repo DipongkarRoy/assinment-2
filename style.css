@@ -60,15 +60,115 @@ font-family: 'Work Sans', sans-serif;
   border-radius: 5px;
   padding: 9px 14px;
   background-color: orange;
+  transition: 2s;
+}
+.btn-primari:hover{
+  background-color: rgb(17, 18, 17);
 }
 .background-images{
-  margin: 0px 150px;
+  margin: 0px 158px;
 
 }
 .background-images img{
   margin-top: 50px;
-  width: 1020px;
-  height: 500px;
+  width: 1050px;
+  height: 560px;
   margin-bottom: 30px;
+  transition: 4s;
+}
+.background-images img:hover{
+  transform: scale(0.9);
 }
 /* -------------header-park warking Done.-------------------- */
+.main-part-one{
+  display: flex;
+  margin: 0px 140px;
+}
+.images{
+  margin-top: 80px;
+}
+.images-box{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.images-box img{
+  height: 312px;
+  width: 312px;
+  transition: 3s;
+}
+.images-box img:hover{
+  transform: scale(1.15);
+}
+.main-sub-section{
+  margin-top: 250px;
+  margin-left: 70px;
+  text-align: left;
+}
+.main-title{
+  font-size: 36px;
+}
+#color1{
+  color: #727272;
+}
+#color2{
+  color: #131313;
+}
+#color3{
+  color: #FF900E;
+}
+.main-title-disceiption{
+  font-size: 16px;
+  color: #727272;
+}
+/* -------------2nd part-------------------- */
+.main-secound-part{
+  margin-top: 80px;
+  display: flex;
+  margin-left: 130px;
+  margin-right: 130px;
+  padding: 0px 13px;
+}
+.secoud-images-title img{
+  height: 1050px;
+  width: 688px;
+  margin-left: 20px;
+  transition: 4s;
+}
+.secoud-images-title img:hover{
+  transform: scale(0.95);
+}
+.all-box-combind{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-row-gap: 10px;
+}
+.main-secound-title{
+  font-size: 36px;
+  color: black;
+}
+.main-secound-discription{
+  font-size: 16px;
+}
+.main-secound-box{
+  width: 340px;
+  height: 155px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 4s;
+}
+.main-secound-box:hover{
+  transform:scale(1.11);
+}
+.box-title{
+  font-size: 22px;
+}
+.box-disceiption{
+  font-size: 16px;
+}
