@@ -170,5 +170,79 @@ font-family: 'Work Sans', sans-serif;
   font-size: 22px;
 }
 .box-disceiption{
+  font-size: 12px;
+}
+/* ---------third parts----------- */
+.main-third-box{
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.main-third-part{
+  margin-left:130px ;
+  font-size: 36px;
+}
+.main-third-pary-discription{
+  margin-left: 130px;
   font-size: 16px;
+}
+.third-box-title{
+  margin-top: 30px;
+  height: 180px;
+  width: 180px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  transition: 2s;
+}
+.third-box-title img{
+  padding-top:25px;
+}
+.third-box-title:hover{
+  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+/* -----------4th part--------------- */
+.main-four-section{
+  margin-top: 100px;
+}
+.main-four-title{
+  font-size: 36px;
+  text-align: center;
+}
+.main-four-discription{
+  font-size: 16px;
+  text-align: center;
+}
+.icon{
+  margin-top: 70px;
+  margin-left: 130px;
+  margin-right: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon img{
+  width: 100px;
+  transition: 2s;
+}
+.icon img:hover{
+  transform: scale(1.2);
+}
+/* ---------------footter------------------ */
+.footter-box{
+  margin-top: 50px;
+  margin-left: 160px;
+  margin-right: 130px;
+  width: 1060px;
+  padding-top: 20px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+.footer-discription{
+  font-size: 14px;
+  text-align: center;
 }
