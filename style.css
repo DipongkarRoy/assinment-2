@@ -235,13 +235,12 @@ font-family: 'Work Sans', sans-serif;
 .footter-box{
   margin-top: 50px;
   margin-left: 160px;
-  margin-right: 130px;
-  margin-bottom: 50px;
+  margin-right: 160px;
+  margin-bottom:50px;
   width: 1060px;
   padding-top: 20px;
   height: 50px;
-  border-radius: 5px;
-  background-color: bisque;
+  background-color: rgb(245, 154, 169);
 }
 .footer-discription{
   font-size: 14px;
