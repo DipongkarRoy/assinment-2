@@ -236,6 +236,7 @@ font-family: 'Work Sans', sans-serif;
   margin-top: 50px;
   margin-left: 160px;
   margin-right: 130px;
+  margin-bottom: 50px;
   width: 1060px;
   padding-top: 20px;
   height: 50px;
@@ -249,7 +250,7 @@ font-family: 'Work Sans', sans-serif;
 /* ------------media work---------- */
 /* -------mobile-versiton------- */
 
-@media only screen and ( max-width :688px ){
+@media only screen and ( max-width :676px ){
   .header-fast{
     margin-left: 0px;
   }
